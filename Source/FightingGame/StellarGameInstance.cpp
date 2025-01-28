@@ -4,8 +4,9 @@
 #include "StellarGameInstance.h"
 #include "Kismet/GameplayStatics.h"
 #include "Engine/World.h"
+#include "OnlineSubsystem.h"
+#include "OnlineSessionSettings.h"
 
-//FIXME: The player on the server bugs out whenever someone joins. This probaby has to do with how new players are managed in GameMode_Default but I figured I'd add this here as well
 
 UStellarGameInstance::UStellarGameInstance() {
 

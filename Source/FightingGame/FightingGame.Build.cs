@@ -14,6 +14,8 @@ public class FightingGame : ModuleRules
 
         PrivateDependencyModuleNames.AddRange(new string[] { "OnlineSubsystem", "OnlineSubsystemUtils", "OnlineSubsystemNull", "OnlineSubsystemSteam" });
 
+        PublicDefinitions.Add("STEAM_SDK_VER=161");
+
         // Uncomment if you are using Slate UI
         // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 
